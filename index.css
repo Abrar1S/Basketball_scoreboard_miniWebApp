@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Verdana';
+    color: #EEEEEE;
+    text-align: center;
+}
+
+/* .containerScore {
+   
+    justify-content: space-around;
+    color: #EEEEEE;
+    text-align: center;
+} */
+
+.homeScore{
+    width: 155px;
+    height: 120px;
+    text-align: center;
+    padding-top: 2px;
+    font-family: 'Cursed Timer ULiL';
+    background-image: url("home-score.png");
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    color: #F94F6D;  
+}
+
+.guestScore{
+    width: 155px;
+    height: 120px;
+    text-align: center;
+    padding-top: 2px;
+    font-family: 'Cursed Timer ULiL';
+    background-image: url("home-score.png");
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #F94F6D;
+}
+
+.space{
+    margin-top: 6px;
+}
+
+.plusOne{
+    
+    width: 25px;
+    height: 15.90px;
+    left: 9px;
+
+    background-image: url("+1.png");
+}
+
+.plusTwo{
+    width: 25px;
+    height: 15.90px;
+    left: 9px;
+
+    background-image: url("+2.png");
+}
+
+.plusThree{
+    width: 25px;
+    height: 15.90px;
+    left: 9px;
+
+    background-image: url("+3.png");
+}
+
+.container_center{
+    display: flex;
+    justify-content: space-around;
+}
+.new_game{
+    background-color: #FFFf;
+}
+.space-2{
+    margin-left: 155px;   
+    margin-top: 25px;
+}
+
+.container_center_2{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.space-3{
+    margin-left: 100px;   
+    margin-top: 15px;
+}
+
+p{
+    font-size: 15px;
+    color: white;
+}

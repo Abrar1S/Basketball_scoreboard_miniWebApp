@@ -1,0 +1,56 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="homeScore">
+                    <h1 id="h_score">0</h1>
+                </div>
+                <div class = "space">
+                    <button id = "Point1Add_h" onclick="onePointAdd_h()">
+                        <div class="plusOne"></div>
+                    </button>
+                    <button onclick="twoPointAdd_h()">
+                        <div class="plusTwo"></div>
+                    </button>
+                    <button onclick="threePointAdd_h()">
+                        <div class="plusThree"></div>
+                    </button>
+                </div>
+            </div>
+            
+            <div>
+                <h3>GUEST</h3>
+                <div class="guestScore">
+                    <h1 id="g_score">0</h1>
+                </div>
+                <div class = "space">
+                    <button onclick="onePointAdd_g()">
+                        <div class="plusOne"></div>
+                    </button>
+                    <button onclick="twoPointAdd_g()">
+                        <div class="plusTwo"></div>
+                    </button>
+                    <button onclick="threePointAdd_g()">
+                        <div class="plusThree"></div>
+                    </button>
+                </div>
+        </div>
+        
+        </div class = "container_center">
+            <div class = "space-2">
+                <button id = "new_game" onclick="new_game()">New Game</button>
+            </div>
+        </div>
+        </div class = "container_center_2">
+            <div class = "space-3">
+                <p id = "leadingWho"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+        
+    </body>
+</html>
